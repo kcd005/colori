@@ -1,0 +1,41 @@
+div.quadrato
+{
+  width:200px;
+  height:200px;
+  cursor: pointer;
+}
+
+.quadrato 
+{
+    border: 10px solid black ;
+    margin-top: 10px;
+}
+
+#rosso
+{
+    background-color: red;
+}
+
+#giallo
+{
+    background-color: yellow;
+}
+
+#verde
+{
+    background-color: green;
+}
+
+#blu
+{
+    background-color: blue;
+}
+
+p
+{
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}

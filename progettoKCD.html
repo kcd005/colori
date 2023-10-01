@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sito web</title>
+</head>
+
+<body>
+    <h1>COLORI</h1>
+    <h3>Questa è una lista di colori</h3>
+    <h4>Clicca sui quadrati per avere più informazioni</h4>
+    <hr/>
+    <div class="quadrato" id="rosso">
+        <p>rosso</p>
+    </div>
+
+    <div class="quadrato" id="giallo">
+        <p>giallo</p>
+    </div>
+
+    <div class="quadrato" id="verde">
+        <p>verde</p>
+    </div>
+
+    <div class="quadrato" id="blu">
+        <p>blu</p>
+    </div>
+
+    <script>
+        document.getElementById("rosso").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Rosso";
+        });
+
+        document.getElementById("giallo").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Giallo"; 
+        });
+
+        document.getElementById("verde").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Verde"; 
+        });
+
+        document.getElementById("blu").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Blu"; 
+        });
+    </script>
+</body>
+</html>
