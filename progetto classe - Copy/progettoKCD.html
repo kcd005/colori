@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sito web</title>
+</head>
+<body>
+    <h1>Colori</h1>
+    <h3>Questa e' una lista di colori</h3>
+    <h4>Clicca sui quadrati per avere piu' informazioni</h4>
+    <hr/>
+    <div id="rosso" href>
+        <p>rosso</p>
+    </div>
+
+    <div id="giallo">
+        <p>giallo</p>
+    </div>
+
+    <div id="verde">
+        <p>verde</p>
+    </div>
+
+    <div id="blu">
+        <p>blu</p>
+    </div>
+
+    <script>
+        document.getElementById("rosso").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Rosso"; // Sostituisci questo URL con il link di Wikipedia desiderato
+        });
+
+        document.getElementById("giallo").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Giallo"; // Sostituisci questo URL con il link di Wikipedia desiderato
+        });
+
+        document.getElementById("verde").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Verde"; // Sostituisci questo URL con il link di Wikipedia desiderato
+        });
+
+        document.getElementById("blu").addEventListener("click", function() {
+            window.location.href = "https://it.wikipedia.org/wiki/Blu"; // Sostituisci questo URL con il link di Wikipedia desiderato
+        });
+    </script>
+</body>
+</html>
